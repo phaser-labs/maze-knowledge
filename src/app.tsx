@@ -1,5 +1,5 @@
-import GameMaze from './game-maze/GameMaze';
-import { Question } from './game-maze/utils/types';
+import GameMaze from './game-maze/game-maze';
+import { GameResult, Question } from './game-maze/utils/types';
 
 const questions: Question[] = [
   {
@@ -27,7 +27,7 @@ const questions: Question[] = [
 function App() {
   return (
     <div id="app">
-      <GameMaze questions={questions}></GameMaze>
+      <GameMaze questions={questions} onResult={(result: GameResult) => { console.log('result', result );}} />
     </div>
   );
 }
