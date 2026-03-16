@@ -19,7 +19,7 @@
 
 1. 🔄 Clona el repositorio:
   ```bash
-  git clone git@github.com:phaser-labs/game-maze.git
+  git clone git@github.com:phaser-labs/maze.git
   ```
 2. 📂 Navega al directorio del proyecto:
   ```bash
